@@ -6,9 +6,10 @@ Notes: It is intended for this problem to be specified vaguely (ie, no given inp
 Update (2015-02-10):
 The signature of the C++ function had been updated. If you still see your function signature accepts a const char * argument, please click the reload button  to reset your code definition.
 */
- */
+
 public class Solution {
     public static int myAtoi(String str) {
+    	return 1;
         
     }
     public static void main(String[] args){
