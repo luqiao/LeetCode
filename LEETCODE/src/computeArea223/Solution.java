@@ -10,14 +10,16 @@ import java.util.HashMap;
 public class Solution {
     public static int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
         HashMap hm=new HashMap(8);
-        hm.put(1,A);
-        hm.put(2,B);
-        hm.put(3,C);
-        hm.put(4,D);
-        hm.put(5,E);
-        hm.put(6,F);
-        hm.put(7,G);
-        hm.put(8,H);
+        hm.put(new Integer(1), new Integer(A));
+        hm.put(new Integer(2), new Integer(B));
+        hm.put(new Integer(3), new Integer(C));
+        hm.put(new Integer(4), new Integer(D));
+        hm.put(new Integer(5), new Integer(E));
+        hm.put(new Integer(6), new Integer(F));
+        hm.put(new Integer(7), new Integer(G));
+        hm.put(new Integer(8), new Integer(H));
+        
+        
         return 1;
         
     }
