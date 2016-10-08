@@ -50,7 +50,6 @@ public class Solution {
     	if (flag==-1)
 			str="-"+str;
     	long result=Long.parseLong(str);
-    	System.out.println(result);
     	if (result>2147483647)
     		return 2147483647;
     	else if (result<-2147483648)
