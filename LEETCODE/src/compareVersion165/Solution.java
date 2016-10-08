@@ -13,7 +13,25 @@ Here is an example of version numbers ordering:
  */
 public class Solution {
     public int compareVersion(String version1, String version2) {
-        String[] strs1=version1.split("//d*//.//d*");
+        String[] strs1=version1.split("//.");
+        String[] strs2=version2.split("//.");
+        int i=0;
+        while(i<strs1.length && i<strs2.length){
+        	int num1=Integer.parseInt(strs1[i]);
+        	int num2=Integer.parseInt(strs2[i]);
+        	if(num1==num2){
+        		i++;
+        	}else if(num1>num2){
+        		return 1;
+        	}else{
+        		return -1;
+        	}
+        }
+        if (i==strs1.length&&i==strs2.length){
+        	return 0;
+        }else if (i>strs1.length){
+        	return 1;
+        }
         return 1;
     }
 	public static void main(String[] args) {
