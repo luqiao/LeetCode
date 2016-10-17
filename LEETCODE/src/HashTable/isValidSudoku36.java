@@ -18,6 +18,7 @@ public class isValidSudoku36 {
         				return false;
         	}
         }
+        return false;
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
