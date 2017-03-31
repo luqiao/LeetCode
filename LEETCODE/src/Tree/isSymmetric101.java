@@ -20,7 +20,7 @@ Bonus points if you could solve it both recursively and iteratively.
  */
 public class isSymmetric101 {
     public static boolean isSymmetric(TreeNode root) {
-    	
+    	return false;
         
     }
 	public static void main(String[] args) {
